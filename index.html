@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Puisi Nusantara | Belajar Puisi Interaktif</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tombol Navigasi Pojok Kanan -->
+    <div class="nav-buttons" id="navButtons">
+        <button class="nav-btn back-tab-btn" id="backTabBtn" title="Kembali ke tab sebelumnya">
+            <i class="fas fa-arrow-left"></i>
+            <span>Kembali</span>
+        </button>
+        <button class="nav-btn home-tab-btn" id="homeTabBtn" title="Kembali ke tab awal (Beranda)">
+            <i class="fas fa-home"></i>
+            <span>Beranda</span>
+        </button>
+    </div>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Header Hero -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <i class="fas fa-feather-alt"></i> 
+                    Puisi Nusantara
+                </h1>
+                <p class="hero-subtitle">Mengenal puisi dari berbagai masa, merasakan keindahan kata, dan memahami makna di balik bait-bait puitis.</p>
+                <div class="hero-decoration"></div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=350&fit=crop" alt="Buku puisi dan pena" loading="lazy">
+            </div>
+        </header>
+
+        <!-- Galeri Gambar Puisi -->
+        <section class="gallery-section">
+            <h2 class="section-title">
+                <i class="fas fa-images"></i> 
+                Galeri Inspirasi Puisi
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=300&h=200&fit=crop" alt="Menulis puisi">
+                    <div class="gallery-caption">Menulis dengan Hati</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=300&h=200&fit=crop" alt="Buku antologi puisi">
+                    <div class="gallery-caption">Antologi Puisi</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=300&h=200&fit=crop" alt="Membaca puisi di alam">
+                    <div class="gallery-caption">Puisi & Alam</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=300&h=200&fit=crop" alt="Perpustakaan">
+                    <div class="gallery-caption">Menyelami Sastra</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Topik Puisi -->
+        <section class="topics-section">
+            <h2 class="section-title">
+                <i class="fas fa-book-open"></i> 
+                Pilih Topik Puisi
+            </h2>
+            <div class="topics-grid" id="topicsGrid">
+                <!-- Topik akan diisi oleh JavaScript -->
+            </div>
+        </section>
+
+        <!-- Area Penjelasan Utama -->
+        <section class="explanation-section" id="explanationSection">
+            <div class="explanation-card">
+                <div class="explanation-header">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3 id="explanationTitle">Selamat Datang di Dunia Puisi</h3>
+                </div>
+                <div class="explanation-body" id="explanationContent">
+                    <p>✨ <strong>Puisi</strong> adalah karya sastra yang mengungkapkan perasaan dan pikiran dengan bahasa yang indah, padat, dan penuh makna. Setiap bait puisi menyimpan imajinasi, perasaan, dan pesan mendalam.</p>
+                    <p>📖 Klik salah satu topik puisi di atas untuk mempelajari lebih lanjut tentang jenis, unsur, atau cara mengapresiasi puisi. Website ini dirancang untuk membantu Anda memahami keindahan puisi dari berbagai sudut pandang.</p>
+                    <div class="quote-box">
+                        "Aku ingin mencintaimu dengan sederhana; seperti kata yang tak sempat diucapkan kayu kepada api yang menjadikannya abu." 
+                        <br>— <strong>Sapardi Djoko Damono</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Puisi Nusantara | Belajar Puisi Interaktif | Semua materi untuk pembelajaran</p>
+        <p class="footer-quote">"Puisi adalah jendela jiwa"</p>
+    </footer>
+
+    <!-- JavaScript External -->
+    <script src="script.js"></script>
+</body>
+</html>
